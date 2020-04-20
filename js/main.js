@@ -20,4 +20,9 @@
     $(".slider").slick("slickNext");
   });
 
+  var wow = new WOW({
+    offset: 300,
+  });
+  wow.init();
+
 })(jQuery);
